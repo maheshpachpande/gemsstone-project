@@ -20,16 +20,16 @@ def save_object(file_path,obj):
         raise CustumException(e,sys)
     
 
-def evaluate_model(x_train,x_test,y_train,y_test,models):
+def evaluate_model(X_train,y_train,X_test,y_test,models):
     try:
         report = {}
         for i in range(len(models)):
             model = list(models.values())[i]
             # train model
-            model.fit(x_train,y_train)
+            model.fit(X_train,y_train)
 
             # predict testing data
-            y_pred = model.predict(x_test)
+            y_pred = model.predict(X_test)
 
 
             test_model_score = r2_score(y_pred,y_test)

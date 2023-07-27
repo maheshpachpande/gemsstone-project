@@ -1,0 +1,5 @@
+[ 2023-07-27 17:06:42,810 187 werkzeug - WARNING -  * Debugger is active!]
+[ 2023-07-27 17:06:42,829 187 werkzeug - INFO -  * Debugger PIN: 111-274-362]
+[ 2023-07-27 17:10:43,388 187 werkzeug - INFO - 127.0.0.1 - - [27/Jul/2023 17:10:43] "GET / HTTP/1.1" 200 -]
+[ 2023-07-27 17:10:43,470 187 werkzeug - INFO - 127.0.0.1 - - [27/Jul/2023 17:10:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[ 2023-07-27 17:11:56,852 187 werkzeug - INFO -  * Detected change in 'C:\\Users\\Mahesh\\Desktop\\gemstone project\\app.py', reloading]
